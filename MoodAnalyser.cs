@@ -15,18 +15,42 @@ namespace ExceptionsAndExceptionHandeling
         }
         public string analyseMood()
         {
+            //try
+            //{
+            //    if (this.message.Contains("Sad"))
+            //    {
+            //        return "SAD";
+            //    }
+            //    else
+            //        return "HAPPY";
+            //}
+            //catch (Exception e)
+            //{
+            //    return "HAPPY";
+            //}
+
             try
             {
-                if (this.message.Contains("Sad"))
+                if (this.message.Equals(string.Empty))
                 {
-                    return "SAD";
+                    throw new MoodAnalyserExceptions(MoodAnalyserExceptions.ExceptionType.EMPTY_MESSAGE, "Message cannot be Empty");
                 }
                 else
-                    return "HAPPY";
+                {
+                    if (this.message.Contains("Sad"))
+                    {
+                        return "SAD";
+                    }
+                    else
+                    {
+                        return "HAPPY";
+                    }
+                }
+
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                return "HAPPY";
+                throw new MoodAnalyserExceptions(MoodAnalyserExceptions.ExceptionType.NULL_MESSAGE, "Invalid Mood");
             }
 
 
