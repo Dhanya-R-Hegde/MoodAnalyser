@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsTest\\ExceptionsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\ExceptionsAndExceptionHandeling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\ExceptionsAndExceptionHandeling.csproj",
+        "projectName": "ExceptionsAndExceptionHandeling",
+        "projectPath": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\ExceptionsAndExceptionHandeling.csproj",
+        "packagesPath": "C:\\Users\\DHANYA R HEGDE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DHANYA R HEGDE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsTest\\ExceptionsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsTest\\ExceptionsTest.csproj",
+        "projectName": "ExceptionsTest",
+        "projectPath": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsTest\\ExceptionsTest.csproj",
+        "packagesPath": "C:\\Users\\DHANYA R HEGDE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DHANYA R HEGDE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\ExceptionsAndExceptionHandeling.csproj": {
+                "projectPath": "C:\\Users\\DHANYA R HEGDE\\Desktop\\dotNetBridgeLabs\\ExceptionsAndExceptionHandeling\\ExceptionsAndExceptionHandeling.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
